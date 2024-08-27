@@ -1,5 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .hero, .footer{
     background-color: #1F2937;
+}
+
+
+.top-box{
+    display:flex;
+    justify-content: space-evenly;
+}
+
+ul{
+    display:flex;
+    list-style-type:none;
+    gap: 15px;
+}
+
+img{
+    padding-bottom:20px;
+}
+
+.second-box{
+    padding-top:50px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    height:400px;
+}
+
+.hero-column{
+    width:500px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 #main-text{
@@ -13,8 +48,10 @@
     color: #E5E7EB;
 }
 
-.button{
+button{
     background-color:#3882F6;
+    width: 120px;
+    border-radius: 10px;
 }
 
 #information-header{
