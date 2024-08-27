@@ -151,3 +151,14 @@ button{
     width:80px;
     height:40px;
 }
+
+.footer{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:20px;
+}
+
+#footer-text{
+    color:white;
+}
