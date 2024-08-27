@@ -9,8 +9,8 @@
 
 .top-box{
     display:flex;
-    justify-content: space-evenly;
-}
+    justify-content: space-around;
+}   
 
 ul{
     display:flex;
@@ -19,13 +19,13 @@ ul{
 }
 
 img{
-    padding-bottom:20px;
+    padding-top: 40px;
 }
 
 .second-box{
     padding-top:50px;
     display:flex;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: flex-start;
     height:400px;
 }
@@ -35,6 +35,36 @@ img{
     display:flex;
     flex-direction: column;
     justify-content: space-evenly;
+    padding-left: 200px;
+}
+
+.information{
+    display:flex;
+    flex-direction: column;
+}
+
+.img-row{
+    display:flex;
+    justify-content: space-evenly;
+    padding-bottom: 70px;
+}
+
+.row-image{
+    display:flex;
+    flex-direction: row;
+    width:200px;
+    height:200px;
+}
+
+.row-text{
+    display:flex;
+    align-items: end;
+    width:200px;
+}
+
+#information-header{
+    display:flex;
+    justify-content: center;
 }
 
 #main-text{
@@ -61,10 +91,22 @@ button{
 }
 
 .quote-section{
+    padding-top:100px;
+    padding-bottom:100px;
+    padding-left:300px;
+    padding-right:300px;
     background-color: #E5E7EB;
     font-size: 36px;
     font-style:italic;
     color: #1F2937;
+}
+
+#quoted{
+    font-size:24px;
+    font-weight:900;
+    font-style: normal;
+    display:flex;
+    justify-content: flex-end;
 }
 
 .sign-up{
