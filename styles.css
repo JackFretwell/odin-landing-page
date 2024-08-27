@@ -45,8 +45,9 @@ img{
 
 .img-row{
     display:flex;
-    justify-content: space-evenly;
+    justify-content: center;
     padding-bottom: 70px;
+    gap:40px;
 }
 
 .row-image{
@@ -82,6 +83,7 @@ button{
     background-color:#3882F6;
     width: 120px;
     border-radius: 10px;
+    border-color:white;
 }
 
 #information-header{
@@ -109,6 +111,43 @@ button{
     justify-content: flex-end;
 }
 
+.container{
+    padding-top: 80px;
+    padding-bottom: 80px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .sign-up{
-    background-color:#3882F6;
+    display:flex;
+    background-color: #3882F6;
+    width: 1000px;
+    height:100px;
+    border-radius: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.sign-up-text{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#first-line{
+    font-size:24px;
+    font-weight: 900;
+    margin:0;
+}
+
+#second-line{
+    margin:0;
+}
+
+
+.sign-up-2{
+    width:80px;
+    height:40px;
 }
